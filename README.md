@@ -71,42 +71,42 @@ A continuación, se muestran las pantallas principales de la aplicación para il
 
 1. Hub Principal (Inicio)
 La pantalla principal que actúa como punto de partida para toda la navegación.
-<center>
+
 ![Captura del Hub Principal](assets/images/CapturaHUB.PNG)
-</center>
+
 
 2. Índice de Prácticas
 Muestra una lista de las prácticas realizadas, incluyendo las de "Hola Mundo", el formulario de registro y el juego de lógica.
 
-<center>![Captura del Índice de Prácticas](assets/images/CapturaIndice.PNG)</center>
+![Captura del Índice de Prácticas](assets/images/CapturaIndice.PNG)
 
 3. Módulos del Proyecto (Kit Offline)
 
-<center>![Captura del kit Offiline](assets/images/CapturaModulos.PNG)</center>
+![Captura del kit Offiline](assets/images/CapturaModulos.PNG)
 
 A. Notas Rápidas
 Un módulo para añadir y gestionar notas simples.
 
-<center>![Captura de Notas](assets/images/CapturaMNotas.PNG)</center>
+![Captura de Notas](assets/images/CapturaMNotas.PNG)
 
 
 B. Calculadora de IMC (Índice de Masa Corporal)
 Permite ingresar el peso y la estatura para obtener el cálculo del IMC con retroalimentación inmediata.
 
-<center>![Captura de Calculadora IMC](assets/images/CapturaIMC.PNG)</center>
+![Captura de Calculadora IMC](assets/images/CapturaIMC.PNG)
 
 C. Galería Local
 Un visor de imágenes que simula el acceso a archivos locales para mostrar una galería.
 
-<center>![Captura de Galeria Local](assets/images/CapturaGaleria.PNG)</center>
+![Captura de Galeria Local](assets/images/CapturaGaleria.PNG)
 
 D. Juego: Par o Impar
 Un juego sencillo para interactuar con la lógica condicional.
-<center>![Captura de Juego Par e Impar](assets/images/CapturaJuagoI_P.PNG)</center>
+![Captura de Juego Par e Impar](assets/images/CapturaJuagoI_P.PNG)
 
 4. Ajustes / Acerca de
 La sección de ajustes que permite la personalización del tema (Modo Oscuro) y muestra información de la aplicación.
 
-<center>![Captura de modo](assets/images/CapturaModoC.PNG)</center>
-<center>![Captura de modo](assets/images/CapturaModoO.PNG)</center>
-<center>![Captura de Acerca de](assets/images/CapturaAcerca.PNG)</center>
+![Captura de modo](assets/images/CapturaModoC.PNG)
+![Captura de modo](assets/images/CapturaModoO.PNG)
+![Captura de Acerca de](assets/images/CapturaAcerca.PNG)
