@@ -33,7 +33,7 @@ Tener configurado un dispositivo o emulador Android o iOS.
 Pasos de Ejecución
 Clonar el Repositorio (Si aplica)
 
-git clone [https://github.com/Gaby6U/PracticaMenu](https://github.com/Gaby6U/Proyecto-AppHub-Portafolio-Kit-Offline.git)
+git clone [https://github.com/Gaby6U/PracticaMenu](https://github.com/Gaby6U/PracticaMenu)
 
 cd Proyecto-AppHub-Portafolio-Kit-Offline
 
