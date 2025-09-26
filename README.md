@@ -71,7 +71,9 @@ A continuación, se muestran las pantallas principales de la aplicación para il
 
 1. Hub Principal (Inicio)
 La pantalla principal que actúa como punto de partida para toda la navegación.
-<center>![Captura del Hub Principal](assets/images/CapturaHUB.PNG)</center>
+<center>
+![Captura del Hub Principal](assets/images/CapturaHUB.PNG)
+</center>
 
 2. Índice de Prácticas
 Muestra una lista de las prácticas realizadas, incluyendo las de "Hola Mundo", el formulario de registro y el juego de lógica.
