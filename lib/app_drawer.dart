@@ -1,88 +1,82 @@
+// Importo el paquete esencial de Flutter para construir la interfaz.
 import 'package:flutter/material.dart';
-import 'menu_game.dart';
-import 'hello_world_ten.dart';
-import 'hello_world_add.dart';
-import 'registration_form.dart';
 
+// Defino mi widget AppDrawer, solo muestra las opciones de navegación.
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // El widget 'Drawer', menú lateral que sale al presionar el icono de "hamburguesa".
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
+        // Aquí coloco todos los elementos del menú.
         children: <Widget>[
           const DrawerHeader(
-            decoration: BoxDecoration(color: Colors.blue),
+            decoration: BoxDecoration(color: Colors.blueGrey),
             child: Text(
-              'Menú de Prácticas',
+              'Menú del Portafolio', // Mi título de menú.
               style: TextStyle(color: Colors.white, fontSize: 24),
             ),
           ),
+          // Inicio (Hub)
           ListTile(
             leading: const Icon(Icons.home),
-            title: const Text('Inicio (Práctica 5)'),
+            title: const Text('Inicio (Hub)'),
             onTap: () {
-              Navigator.pop(context); // Cierra el drawer
-              // Usa pushReplacement para ir al inicio
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (context) => const MenuGameScreen()),
-              );
+              // Navego a la ruta '/' (mi pantalla principal).
+              // Uso 'pushReplacementNamed' para reemplazar la pantalla actual,
+              Navigator.pushReplacementNamed(context, '/');
             },
           ),
+          // Índice de Prácticas
           ListTile(
-            leading: const Icon(Icons.looks_one),
-            title: const Text('Práctica 1'),
+            leading: const Icon(Icons.list_alt),
+            title: const Text('Índice de Prácticas'),
             onTap: () {
-              Navigator.pop(context);
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const HelloWorldTenTimesScreen(),
-                ),
-              );
+              Navigator.pushReplacementNamed(context, '/practices');
             },
           ),
-          ListTile(
-            leading: const Icon(Icons.looks_two),
-            title: const Text('Práctica 2'),
-            onTap: () {
-              Navigator.pop(context);
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const HelloWorldAddScreen(),
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.looks_4),
-            title: const Text('Práctica 4'),
-            onTap: () {
-              Navigator.pop(context);
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const RegistrationFormScreen(),
-                ),
-              );
-            },
+          // Kit Offline
+          ExpansionTile(
+            leading: const Icon(Icons.apps),
+            title: const Text('Proyecto: Kit Offline'),
+            children: <Widget>[
+              // Elementos dentro del submenú
+              ListTile(
+                title: const Text('Notas rápidas'),
+                onTap: () {
+                  Navigator.pushReplacementNamed(context, '/notes');
+                },
+              ),
+              ListTile(
+                title: const Text('Calculadora de IMC'),
+                onTap: () {
+                  Navigator.pushReplacementNamed(context, '/imc');
+                },
+              ),
+              ListTile(
+                title: const Text('Galería local'),
+                onTap: () {
+                  Navigator.pushReplacementNamed(context, '/gallery');
+                },
+              ),
+              ListTile(
+                title: const Text('Juego: Par o Impar'),
+                onTap: () {
+                  Navigator.pushReplacementNamed(context, '/odd_even');
+                },
+              ),
+            ],
           ),
           const Divider(),
+          // Ajustes
           ListTile(
-            leading: const Icon(Icons.casino),
-            title: const Text('Juego: Piedra, Papel o Tijera'),
+            leading: const Icon(Icons.settings),
+            title: const Text('Ajustes'),
             onTap: () {
-              Navigator.pop(context);
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const RockPaperScissorsGame(),
-                ),
-              );
+              Navigator.pushReplacementNamed(context, '/settings');
             },
           ),
         ],
