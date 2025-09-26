@@ -71,40 +71,40 @@ A continuación, se muestran las pantallas principales de la aplicación para il
 
 1. Hub Principal (Inicio)
 La pantalla principal que actúa como punto de partida para toda la navegación.
-![Captura del Hub Principal](assets/imagen/CapturaHUB.PNG)
+![Captura del Hub Principal](assets/images/CapturaHUB.PNG)
 
 2. Índice de Prácticas
 Muestra una lista de las prácticas realizadas, incluyendo las de "Hola Mundo", el formulario de registro y el juego de lógica.
 
-![Captura del Índice de Prácticas](assets/imagen/CapturaIndice.PNG)
+![Captura del Índice de Prácticas](assets/images/CapturaIndice.PNG)
 
 3. Módulos del Proyecto (Kit Offline)
 
-![Captura del kit Offiline](assets/imagen/CapturaModulos.PNG)
+![Captura del kit Offiline](assets/images/CapturaModulos.PNG)
 
 A. Notas Rápidas
 Un módulo para añadir y gestionar notas simples.
 
-![Captura de Notas](assets/imagen/CapturaMNotas.PNG)
+![Captura de Notas](assets/images/CapturaMNotas.PNG)
 
 
 B. Calculadora de IMC (Índice de Masa Corporal)
 Permite ingresar el peso y la estatura para obtener el cálculo del IMC con retroalimentación inmediata.
 
-![Captura de Calculadora IMC](assets/imagen/CapturaIMC.PNG)
+![Captura de Calculadora IMC](assets/images/CapturaIMC.PNG)
 
 C. Galería Local
 Un visor de imágenes que simula el acceso a archivos locales para mostrar una galería.
 
-![Captura de Galeria Local](assets/imagen/CapturaGaleria.PNG)
+![Captura de Galeria Local](assets/images/CapturaGaleria.PNG)
 
 D. Juego: Par o Impar
 Un juego sencillo para interactuar con la lógica condicional.
-![Captura de Juego Par e Impar](assets/imagen/CapturaJuagoI_P.PNG)
+![Captura de Juego Par e Impar](assets/images/CapturaJuagoI_P.PNG)
 
 4. Ajustes / Acerca de
 La sección de ajustes que permite la personalización del tema (Modo Oscuro) y muestra información de la aplicación.
 
-![Captura de modo](assets/imagen/CapturaModoC.PNG)
-![Captura de modo](assets/imagen/CapturaModoO.PNG)
-![Captura de Acerca de](assets/imagen/CapturaAcerca.PNG)
+![Captura de modo](assets/images/CapturaModoC.PNG)
+![Captura de modo](assets/images/CapturaModoO.PNG)
+![Captura de Acerca de](assets/images/CapturaAcerca.PNG)
